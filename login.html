@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Login Page</title>
+        <link rel="stylesheet" href="/dist/css/main.css" type="text/css"/>
+    </head>
+    <body class="container">
+                 <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand primary-text" href="#">NIGHT_OWL_STREAMERS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 primary-text">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Register</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary primary-text" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>    
+  </header>
+
+      <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-5 d-none d-md-block">
+                    <img src="images/25.jpg" alt="login photo"
+                      alt="login form" class="img-fluid"/>
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                      <form id="form" action="https://nf-api.onrender.com" method="POST">  
+                        <div class="d-flex align-items-center mb-3 pb-1">
+                          <i class="fas fa-cubes fa-2x me-3"></i>
+                          <span class="h1 fw-bold mb-0 primary-text">NIGHT_OWL_STREAMERS</span>
+                        </div>
+      
+                        <h5 class="fw-normal mb-3 pb-3 primary-text">Sign into your account</h5>
+      
+                        <div class="form-outline mb-4">
+                          <input type="email" id="email" class="form-control form-control-lg" placeholder="Email Address" required/>
+                          
+                        </div>
+      
+                        <div class="form-outline mb-4">
+                          <input type="password" id="password" class="form-control form-control-lg" placeholder="Password" required/>
+                          
+                        </div>
+      
+                        <div class="pt-1 mb-4">
+                            <div class="pt-1 mb-4">
+                                <button class="btn btn-primary btn-sm primary-text" type="submit">Submit</button>
+                              </div> 
+                        </div>
+                          
+                        <a class="small primary-text" href="#!">Forgot password?</a>
+                        <p class="mb-5 pb-lg-2 primary-text">Don't have an account? <a class="primary-text" href="#!">Register here</a></p>
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+              <!-- ===================FOOTER -->
+        <footer class="footer-section">
+            <div class="bg-light py-2">
+                <div class="container text-center">
+                    <p class="mb-0 py-2 primary-text">&copy; 2022 NeNorvalls | All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>

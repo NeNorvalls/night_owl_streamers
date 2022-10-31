@@ -1,0 +1,27 @@
+{
+  "name": "night_owl_streamers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeNorvalls/night_owl_streamers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeNorvalls/night_owl_streamers/issues"
+  },
+  "homepage": "https://github.com/NeNorvalls/night_owl_streamers#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.55.0"
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+    background-color: $BckgndColor;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0; 
+    border: 2px solid $BckgndColor;
+}
+
+.navbar-brand  {
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 48px;
+    &:hover {
+        color: $primary-textColor;
+    }
+}
+.nav-link {
+    color: $primary-textColor;
+    &.nav-link.active {
+        color: $navbarColor;
+    }
+    &:hover {
+        color: $navbarColor;
+    }
+} 
+
+.primary-text {
+    color: $primary-textColor;
+}
+
+.secondary-text {
+    color: $secondary-textColor;
+}
+
+a  {
+    text-decoration: none;
+    &:hover {
+        color: $navbarColor;
+    }
+}
+
+.btn-primary {
+    background-color: $BckgndColor;
+    border-color: $primary-textColor;
+    &:hover {
+        background-color: $hoverColor;
+        border-color: $primary-textColor;
+    }
+}
